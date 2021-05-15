@@ -34,7 +34,7 @@ The purpose of this analysis is to build a binary classification model capable o
   - The ReLU activation function was selected for both hidden layers as all feature values are positive
   - The Sigmoid activation was selected for the output as the model is a binary classifier
   - Model summary:
-    - ![nn-original-summary-output](imgs/nn-original-summary-resized.png)
+    - ![nn-original-summary-output](imgs/resized/nn-original-summary-resized.png)
 
 - The original model had an accuracy of .7298, falling short of the .75 target performance
   - ![accuracy-original-attempt](imgs/resized/accuracy-original-attempt.png)
