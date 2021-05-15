@@ -1,8 +1,8 @@
 # Neural_Network_Charity_Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis
+## Overview
 
-The purpose of this analysis is well defined
+The purpose of this analysis is to build a binary classification model capable of predicting whether a charity will effectively use the money raised if funded. By leveraging machine learning and neural networks a deep learning model is generated to evaluate potential success. After generating the initial neural network model and measuring its efficacy, various adjustments to its structure are implemented in order to optimize performance.
 
 ## Results: Using bulleted lists and images to support your answers, address the following questions
 
