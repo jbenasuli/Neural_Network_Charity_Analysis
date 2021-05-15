@@ -55,12 +55,15 @@ The purpose of this analysis is to build a binary classification model capable o
 Each of the 3 attempts to optimize the model's performance did not result in a meaningful change to accuracy, and all 3 versions failed to achieve the target performance accuracy of .75. The results summary of each attempt are listed below:
 
 - Attempt 1: dropping potentially noisy variables caused performance to fall slightly, resulting in an accuracy of .7279
-  - ![accuracy-optimization-attempt-1](imgs/optimization-attempt-1.png)
+  
+  ![accuracy-optimization-attempt-1](imgs/optimization-attempt-1.png)
 
 - Attempt 2: auto-optimizing the hyperparameters led to the best performance with an accuracy of .7326
-  - ![accuracy-optimization-attempt-2](imgs/optimization-attempt-2.png)
+  
+  ![accuracy-optimization-attempt-2](imgs/optimization-attempt-2.png)
 
 - Attempt 3: adjusting and adding bins resulted in the worst performance with an accuracy .7275
-  - ![accuracy-optimization-attempt-3](imgs/optimization-attempt-3.png)
+  
+  ![accuracy-optimization-attempt-3](imgs/optimization-attempt-3.png)
 
 Given the inability to achieve the target performance using the methods summarized above on the existing set of organizational metadata, I would recommend examining the dataset before further attempts to optimize the model are made. A deeper understanding of the meaning and impact of each variable currently contained in the metadata might allow for better decisions regarding variable inclusion and binning during the data preprocessing phase. Additionally, more financial data -wether in continuous or categorical form- might strengthen the ability to predict if future funding will be used effectively.
