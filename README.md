@@ -38,7 +38,8 @@ The purpose of this analysis is to build a binary classification model capable o
   ![nn-original-summary-output](imgs/nn-original-summary-resized.png)
 
 - The original model had an accuracy of .7298, falling short of the .75 target performance
-  - ![accuracy-original-attempt](imgs/accuracy-original-attempt.png)
+  
+  ![accuracy-original-attempt](imgs/accuracy-original-attempt.png)
 
 - 3 attempts were made to optimize performance and achieve an accuracy > .75
   - The different approaches taken to improve performance are outlined below:
