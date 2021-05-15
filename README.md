@@ -50,8 +50,6 @@ The purpose of this analysis is to build a binary classification model capable o
 
 ## Summary
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation
-
 Each of the 3 attempts to optimize the model's performance did not result in a meaningful change to accuracy, and all 3 versions failed to achieve the target performance accuracy of .75. The results summary of each attempt are listed below:
 
 - Attempt 1: dropping potentially noisy variables caused performance to fall slightly, resulting in an accuracy of .7279
