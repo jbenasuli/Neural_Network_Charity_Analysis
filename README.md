@@ -25,11 +25,16 @@ The purpose of this analysis is to build a binary classification model capable o
 
 ### Compiling, Training, and Evaluating the Model
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
 - The initial model is structured as follows:
-  - First hidden layer: 80 neurons with ReLU as the activation function
-  - Second hidden layer: 30 neurons with ReLU as the activation function
-  - Output layer: 1 neurons with Sigmoid as the activation function
+  - Layers:
+    - First hidden layer: 80 neurons with ReLU as the activation function
+    - Second hidden layer: 30 neurons with ReLU as the activation function
+    - Output layer: 1 neurons with Sigmoid as the activation function
+  - 110 neurons were used in the hidden layer, as it's roughly 2.5x the number of input features (43)
+  - The ReLU activation function was selected for both hidden layers as all feature values are positive
+  - The Sigmoid activation was selected for the output as the model is a binary classifier
+  - Model summary:
+    - ![nn-original-summary-output](imgs/nn-original-summary.png)
 
 - Were you able to achieve the target model performance?
 - What steps did you take to try and increase model performance?
