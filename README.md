@@ -66,4 +66,10 @@ Each of the 3 attempts to optimize the model's performance did not result in a m
   
   ![accuracy-optimization-attempt-3](imgs/optimization-attempt-3.png)
 
-Given the inability to achieve the target performance using the methods summarized above on the existing set of organizational metadata, I would recommend examining the dataset before further attempts to optimize the model are made. A deeper understanding of the meaning and impact of each variable currently contained in the metadata might allow for better decisions regarding variable inclusion and binning during the data preprocessing phase. Additionally, more financial data -wether in continuous or categorical form- might strengthen the ability to predict if future funding will be used effectively.
+Given the inability to achieve the target performance using the methods summarized above on the existing set of organizational metadata, I would recommend examining the dataset before further attempts to optimize the deep learning model are made. A deeper understanding of the meaning and impact of each variable currently contained in the metadata might allow for better decisions regarding variable inclusion and binning during the data preprocessing phase. If feasible, collecting more financial data -wether in continuous or categorical form- might strengthen the ability to predict if future funding will be used effectively.
+
+In addition to evaluating the quality of the dataset currently used to classify outcomes, a Support Vector Machine should be applied to this analysis. SVMs' ability to handle non-linear data in binary classification problems might make an SVM model the most appropriate choice for predicting the IS_SUCCESSFUL target.  While SVMs can often outperform deep learning models when dealing with straightforward binary classification, applying an SVM model to the same dataset used for the original model resulted in an accuracy of .723 - a result in line with all the deep learning models evaluated.
+
+  ![svm-test](imgs/svm-results-scaled.png)
+
+The similar performance achieved by the SVM suggests that a deep learning model is not necessarily required to solve this classification problem. However, its inability to improve accuracy further reinforces the conclusion that the classification dataset should be reevaluated if achieving a higher accuracy is required.
